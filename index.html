@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turisticos</title>
+    
+</head>
+
+<style>
+   body {
+    background-color: rgb(108, 153, 110);
+   } 
+     
+   :root{
+
+    --cor-fundo : #5f7067;
+    --cor-hover : #658675;
+    --cor-primaria : #f1faf5;
+   }
+   .menu ul {
+    list-style-type: none;
+    padding: 0px 0;
+    background-color: var(--cor-fundo);
+    text-align:center;
+   
+   }
+   
+    
+   .menu ul li{
+    display:inline;
+    position: relative;
+       
+   }
+
+   .menu ul li a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;   
+   }
+   
+   .menu ul li a:hover{
+    background-color: var(--cor-hover);
+   }
+   .menu ul ul{
+    display: none;
+    position: absolute;
+    
+   }
+    .div *{
+    margin: 0;
+    padding: 0;
+    border-radius: border-box;
+   }
+   .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 20vh;
+    
+   }
+     .card-container .cards{
+    padding: 90px 30px;
+
+   }
+   .img{
+    height: 250px;
+    width: 350px;
+    border: radius 5px; 
+    overflow: hidden;
+    cursor: pointer;
+
+    object-fit: cover;
+    transition: 0.2s linear;
+   }
+   .img:hover{
+    transform: scale(1.1);
+   }
+
+   .card-container .card-imagem{
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: rgb(46, 97, 49);
+   }
+   .card-container .card-imagem h2{
+    text-align: center;
+    font-weight: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(193, 223, 203);
+   }
+   .card-imagem a{
+    display: block;
+    width: 160px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 10px 5px;
+    margin-top: 15px;
+    margin-left: 95px;
+    background-color: #054121;
+    color: rgb(250, 243, 243);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   .card-imagem a:hover{
+    transition: 0.5 all;
+    background: #518669;
+   }
+   @media (max-width: 768px){
+    card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;    
+   }
+}
+.card-container .cards{
+    padding: 90px 30px;
+   }
+.img-nav{
+    width: 113px;
+    position:absolute
+      
+           
+}
+.titulo{
+    color: #f1faf5;
+    text-align: center;
+}
+
+.redes{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.redes h4{
+    color: #f1faf5;
+}
+.lugares-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#e2f8e9;
+    font-size: 16px;
+}
+
+.lugares-text h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #043d1f;
+}
+  
+</style>
+<body>
+    <header>  
+
+    <img class= "img-nav" src="https://www.viajanet.com.br/blog/wp-content/uploads/2015/07/europa-blog-ok.png"> 
+    
+    <nav class="menu">
+               
+        <ul> 
+                                                     
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Destinos</a></li>
+            <li><a href="#">Dicas de Viagem</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        </nav>
+        </header> <br>
+
+    <h1 class="titulo"> Conheça lugares incríveis e viva uma experiência única na Europa.</h1> 
+   
+          <div class="card-container">
+            <div class="cards">
+    <div class="card-imagem">
+        <img class="img" src="https://images.alphacoders.com/109/1094676.jpg" alt="img">
+        <h2>Conheça Amsterdam</h2>
+        <a href="#">Canal Singel</a>
+    </div>    
+</div>
+<div class="cards">
+    <div class="card-imagem">
+        <img class= "img" src="https://transferitalia.com.br/wp-content/uploads/2018/04/night-roma-01.jpg" alt="img">
+        <h2>Conheça Itália</h2>
+        <a href="#">Coliseu</a>
+        
+    </div>    
+</div>
+<div class="cards">
+    <div class="card-imagem">
+        <img class= "img" src="https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-paris-capa2019-02-820x430.jpg" alt="img">
+        <h2>Conheça Paris</h2>
+        <a href="#">Torre Eiffel</a>
+
+         </div>    
+    </div>
+</div>
+
+<div class="lugares-text">
+     
+
+<h2>Amsterdam</h2>
+
+<p>Amsterdam é a capital da Holanda, conhecida por seu patrimônio artístico, um elaborado sistema de canais e casas estreitas com telhados de duas águas, legados da era dourada do século XVII na cidade.
+O bairro de museus abriga o Museu Van Gogh, o Rijksmuseum, com obras de Rembrandt e Vermeer, e o Stedelijk, que privilegia a arte moderna. 
+O ciclismo é uma característica essencial da cidade, que tem grande quantidade de ciclovias. O Singel é um dos canais de Amsterdam. O Singel cercou Amsterdã na Idade Média, servindo como um fosso ao redor da cidade até 1585, quando Amsterdã se expandiu além do Singel.</p>
+
+
+<h2>Itália</h2>
+
+<p>A Itália, país europeu com uma longa costa mediterrânea, deixou uma marca poderosa na culinária e na cultura ocidentais. A capital, Roma, é sede do Vaticano e abriga obras de arte monumentais e ruínas antigas. 
+Outra cidade importante é Florença, com obras-primas do Renascimento, como o "Davi", de Michelangelo, e o Domo de Brunelleschi. Destacam-se também Veneza, a cidade dos canais, e Milão, capital da moda italiana.
+Coliseu, também conhecido como Anfiteatro Flaviano, é um anfiteatro oval localizado no centro da cidade de Roma, capital da Itália.</p>
+
+<h2>Paris</h2>
+
+<p >Paris, a capital da França, é uma importante cidade europeia e um centro mundial de arte, moda, gastronomia e cultura. Sua paisagem urbana do século XIX é cortada por avenidas largas e pelo rio Sena. 
+A cidade é conhecida por monumentos como a Torre Eiffel e a Catedral de Notre-Dame, uma construção gótica do século XII, sendo famosa também pela cultura dos cafés e por lojas de estilistas famosos na Rue du Faubourg Saint-Honoré. </p> 
+
+<h2>Sobre Viajar</h2>
+
+<p>Saber aproveitar os detalhes de uma viagem é o que a torna inesquecível, viajar faz bem para a saúde do corpo, do coração e da mente, e isso é a mais pura verdade.   
+O sentimento de descansar, conhecer pessoas, lugares e novas experiências proporcionam sensação de bem-estar.</p><br>
+
+</h2>
+</div>
+
+    <footer>
+        <div class="redes">
+            <h4>Nos encontre em:</h4>
+            <div class="icons">
+                <a href="#"><img src="https://icones.pro/wp-content/uploads/2021/02/instagram-icone-vert.png" width= "30px" alt="Instagram"></a>
+                <a href="#"><img src="https://icones.pro/wp-content/uploads/2021/02/icone-de-courrier-electronique-vert.png" width="30px" alt="E-mail"></a>
+                <a href="#"><img src="https://icones.pro/wp-content/uploads/2021/06/symbole-github-vert.png"  width="30px" alt="Github"></a>
+                <a href="#"><img src="https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-vert.png"  width= "30px" alt="likendin"></a>
+                
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
